@@ -1,11 +1,11 @@
 # `TetriX` (Tetris Game):
 
-A modern, feature-rich Tetris implementation built with Python and `Pygame`. This version includes official Tetris standards, advanced visual effects, sound system, and comprehensive gameplay mechanics.
+A feature-rich Tetris-inspired implementation built with Python and `Pygame`, focused on game-loop design, piece generation, input handling, persistence, and visual/audio effects.
 
 ## Features:
 
 ### Core Gameplay:
-- **Official Tetris Standards**: Proper piece colors, 7-bag randomization system, and standard scoring.
+- **Tetris-inspired rules**: 7-bag piece randomization, familiar scoring, ghost piece, hold, and progressive speed.
 - **Modern Controls**: Ghost piece preview, hard drop, hold piece functionality, and smooth rotation.
 - **Progressive Difficulty**: Dynamic level progression with increasing speed every 10 lines cleared.
 - **Combo System**: Bonus points for consecutive line clears.
@@ -117,7 +117,7 @@ Uses the modern Tetris piece generation system ensuring fair distribution:
 - **Gradient Blocks**: 3D appearance with lighting effects.
 - **Enhanced Borders**: Multiple border layers for depth.
 - **Ghost Piece**: Semi-transparent preview showing drop position.
-- **Color Coding**: Official Tetris color scheme for each piece type.
+- **Color Coding**: Familiar color mapping for the seven piece types.
 
 ## Statistics & Tracking:
 
@@ -173,7 +173,7 @@ The game automatically detects sound capabilities:
 ## Version History:
 
 ### Features Added:
-- Official Tetris color scheme and piece generation.
+- Tetris-inspired color mapping and 7-bag piece generation.
 - Hold piece system with 'C' key functionality.
 - Ghost piece showing drop preview.
 - Advanced visual effects with particles and animations.
